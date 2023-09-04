@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형웹</title>
+
+    <!-- 폰트아이콘 어썸 -->
+    <script src="https://kit.fontawesome.com/0f208ed8d4.js" crossorigin="anonymous"></script>
+
+    <!-- CDN 방식 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="js/main.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 
+        mediaquery
+        :해상도 폭에 따라 서로 다른 css 연결
+        nth-of-type
+        :순서 정렬(순서 선택자)
+        box-sizing:border-box;
+        :paddig과 border값을 기존의 넓이 값과 높이 값에 포함
+        transition
+        :운동속도(전화효과)
+        웹폰트 아이콘
+        :폰트어썸
+        구글웹폰트
+        :글꼴(import)
+        animation
+        :애니메이션 설정
+        transform(2d)
+        :도형 2d변형
+
+     -->
+     
+     <header>
+        <h1>logo</h1>
+        <ul id="gnb">
+            <li><a href="#"><i class="fas fa-heading"></i>소개</a></li>
+            <li><a href="#"><i class="fas fa-building"></i>연혁</a></li>
+            <li><a href="#"><i class="fas fa-suitcase"></i>축제</a></li>
+            <li><a href="#"><i class="fab fa-cuttlefish"></i>안내</a></li>
+        </ul>
+
+        <div class="snsSet">
+            <a href="#"><img src="img/sns1.png" alt="about"></a>
+            <a href="#"><img src="img/sns2.png" alt="contact"></a>
+            <a href="#"><img src="img/sns3.png" alt="facebook"></a>
+            <a href="#"><img src="img/sns4.png" alt="twitter"></a>
+            <a href="#"><img src="img/sns5.png" alt="etc"></a>
+        </div>
+     </header>
+
+     <nav>
+        <a href="#"><img src="img/util1.png" alt="1"></a>
+        <a href="#"><img src="img/util2.png" alt="2"></a>
+        <a href="#"><img src="img/util3.png" alt="3"></a>
+        <a href="#"><img src="img/util4.png" alt="4"></a>
+     </nav>
+
+     <section>
+        <article>
+            <div class="bg bg1">
+                <span>Maldives</span>
+            </div>
+        </article>
+
+        <article>
+            <div class="txt">
+                <i class="fas fa-arrow-right"></i>
+                <p>
+                    <strong>춘천 마임 축제</strong><br>
+                    <em>춘천에 이렇게 세계적인 축제가?!</em>
+                </p>
+            </div>
+        </article>
+
+        <article>
+            <div class="txt">
+                <i class="fas fa-redo-alt"></i>
+                <p><strong>공지사항</strong></p>
+            </div>
+        </article>
+
+        <article>
+            <div class="bg bg2">
+                <span>아! 水라장</span>
+            </div>
+        </article>
+
+        <article>
+            <div class="bg bg3">
+                <span>도깨비난장</span>
+            </div>
+        </article>
+
+        <article>
+            <div class="txt">
+                <i class="fas fa-arrow-right"></i>
+                <p>
+                    <strong>축제일정</strong><br>
+                    <em>CHUNCHEON INTERNATIONAL MIME FESTIVAL</em>
+                </p>
+            </div>
+        </article>
+
+        <article>
+            <div class="bg bg4">
+                <span>봄의 도시</span>
+            </div>
+        </article>
+
+        <article>
+            <div class="txt">
+                <i class="fas fa-arrow-right"></i>
+                <strong>오시는 길</strong><br>
+                <em>way to come</em>
+            </div>
+        </article>
+        
+        <article>
+            <div class="bg bg5">
+                <span>마임 show</span>
+            </div>
+        </article>
+
+        <article>
+            <div class="bg bg6">
+                <span>극장공연</span>
+            </div>
+        </article>
+
+        <article>
+            <div class="txt">
+                <i class="fas fa-arrow-right"></i>
+                <p>
+                    <strong>갤러리</strong><br>
+                    <em>축제와의 소중한 기억</em>
+                </p>
+            </div>
+        </article>
+
+        <article>
+            <div class="bg bg7">                
+                <span>보도자료</span>
+            </div>
+        </article>
+     </section>
+
+
+
+     <!-- 팝업창 -->
+     <div id="layer">
+        <div class="layer-up">
+            <div class="uptitle">
+                마임 축제 소개
+            </div>
+            <div class="upbody">
+                강원특별자치도 춘천시 일대에 열리는 국제 마임축제이며. 영국의 런던마임축제, 프랑스의 미모스 축제와 함께 세계 3대 마임축제 중 하나로 꼽힌다. 매년 5월 말에 열린다.
+            </div>
+            <div class="btn">닫기</div>
+        </div>
+     </div>
+
+</body>
+</html>
